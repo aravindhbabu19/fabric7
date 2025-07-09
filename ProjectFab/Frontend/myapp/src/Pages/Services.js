@@ -20,13 +20,13 @@ const Services = () => {
           <div class='d-flex justify-content-center'>
           <img src='./Images/Fab/contkitch1.jpg' alt='' height={250} width={250} class='service-img mt-5'/>
           </div>
-          <h5 class='service-head5 d-flex justify-content-center '>Container Kitchen</h5>
+          <h5 class='service-head5 d-flex justify-content-center '>Container Kiosk</h5>
         </div>
         <div class='col-12 col-sm-12 col-md-6 col-lg-3'>
           <div class='d-flex justify-content-center'>
           <img src='./Images/Fab/contkiosk1.jpg' alt='' height={250} width={250} class='service-img mt-5'/>
           </div>
-          <h5 class='service-head5 d-flex justify-content-center'>Container Kiosk</h5>
+          <h5 class='service-head5 d-flex justify-content-center'>Container Kitchen</h5>
         </div>
         <div class='col-12 col-sm-12 col-md-6 col-lg-3'>
           <div class='d-flex justify-content-center'>
