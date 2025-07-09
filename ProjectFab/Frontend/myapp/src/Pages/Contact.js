@@ -14,7 +14,7 @@ const Contact = () => {
 
   const handleSubmit=async(e)=>{
     e.preventDefault()
-    await axios.post('http://localhost:8081/contact',{name,email,phone,message})
+    await axios.post('https://fabric7.onrender.com/contact',{name,email,phone,message})
     .then((result)=>{
       console.log(result)
       toast.success("Your info was successfully submitted. Our team will contact you shortly")
