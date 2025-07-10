@@ -451,8 +451,8 @@
 }
 .service-img{
   border-radius: 10px;
-   animation: blink123;
-  animation-duration:5s;
+   animation: blink123 infinite;
+  animation-duration:1s;
   animation-timeline: view();
   animation-range: entry 0% cover 40%;
   
