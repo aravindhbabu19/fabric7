@@ -452,7 +452,7 @@
 .service-img{
   border-radius: 10px;
    animation: blink123 linear;
-  animation-duration:1s;
+  animation-duration:3s;
   animation-timeline: view();
   animation-range: entry 0% cover 40%;
   
