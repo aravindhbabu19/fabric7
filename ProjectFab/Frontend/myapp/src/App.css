@@ -451,12 +451,13 @@
 }
 .service-img{
   border-radius: 10px;
-   animation: blink linear;
+   animation: blink123;
+  animation-duration:5s;
   animation-timeline: view();
   animation-range: entry 0% cover 40%;
   
 }
-@keyframes blink1 {
+@keyframes blink123 {
     from{
       height:100px;
       width:100px;
