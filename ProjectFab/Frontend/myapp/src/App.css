@@ -454,14 +454,14 @@
   animation: blink1 linear;
   animation-delay: 1s;
   animation-timeline:view();
-  animation-range: entry 0% cover 40%;
+  
 }
 @keyframes blink1 {
-    0%{
+    from{
       height:100px;
       width:100px;
     }
-    100%{
+    to{
      height:250px;
       width:250px;
     }
