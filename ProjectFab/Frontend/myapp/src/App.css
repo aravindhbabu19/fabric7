@@ -453,8 +453,8 @@
   border-radius: 10px;
   animation: blink linear;
   animation-delay: 1s;
- 
-  animation-range: entry 0% cover 40%;
+  animation-timeline:view();
+  
 }
 @keyframes blink {
     0%{
