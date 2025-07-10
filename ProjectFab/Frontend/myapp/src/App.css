@@ -451,11 +451,17 @@
 }
 .service-img{
   border-radius: 10px;
-  animation: blink1 linear;
-  animation-delay: 1s;
-  animation-timeline:view();
+  opacity: 0;
+      transform: scale(0.95);
+      animation: fadeZoom 1.5s ease-out forwards;
   
 }
+ @keyframes fadeZoom {
+      to {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
 @keyframes blink1 {
     from{
       height:100px;
